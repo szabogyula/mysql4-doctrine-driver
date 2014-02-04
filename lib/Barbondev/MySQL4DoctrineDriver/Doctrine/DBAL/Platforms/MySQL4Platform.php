@@ -1,13 +1,13 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms;
 
 use Doctrine\DBAL\Platforms\MySqlPlatform;
 
 /**
  * Class MySQL4Platform
  *
- * @package Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms
+ * @package Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
 class MySQL4Platform extends MySqlPlatform

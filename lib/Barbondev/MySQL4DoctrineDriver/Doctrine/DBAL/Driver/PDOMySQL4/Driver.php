@@ -1,16 +1,16 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Driver\PDOMySQL4;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Driver\PDOMySQL4;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Driver\PDOMySql\Driver as PDOMySQLDriver;
-use Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\MySQL4SchemaManager;
-use Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms\MySQL4Platform;
+use Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\MySQL4SchemaManager;
+use Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms\MySQL4Platform;
 
 /**
  * Class Driver
  *
- * @package Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Driver\PDOMySQL4
+ * @package Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Driver\PDOMySQL4
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
 class Driver extends PDOMySQLDriver

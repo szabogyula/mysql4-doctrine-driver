@@ -1,6 +1,6 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema;
 
 use Doctrine\DBAL\Schema\MySqlSchemaManager;
 use Doctrine\DBAL\Schema\Column;
@@ -11,7 +11,7 @@ use Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\Table;
 /**
  * Class MySQL4SchemaManager
  *
- * @package Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema
+ * @package Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
 class MySQL4SchemaManager extends MySqlSchemaManager

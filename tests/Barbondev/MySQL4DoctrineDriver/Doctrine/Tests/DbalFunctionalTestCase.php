@@ -1,8 +1,8 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\Tests;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\Tests;
 
-use Barbon\MySQL4DoctrineDriver\Doctrine\Tests\TestUtil;
+use Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\TestUtil;
 
 /**
  * Class DbalFunctionalTestCase

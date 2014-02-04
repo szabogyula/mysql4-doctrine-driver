@@ -1,15 +1,15 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Functional;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Functional;
 
 use Doctrine\DBAL\Types\Type;
 use PDO;
-use Barbon\MySQL4DoctrineDriver\Doctrine\Tests\DbalFunctionalTestCase;
+use Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DbalFunctionalTestCase;
 
 /**
  * Class WriteTest
  *
- * @package Barbon\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Functional
+ * @package Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Functional
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
 class WriteTest extends DbalFunctionalTestCase

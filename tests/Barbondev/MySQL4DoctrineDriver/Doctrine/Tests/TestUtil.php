@@ -1,11 +1,11 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\Tests;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\Tests;
 
 /**
  * Class TestUtil
  *
- * @package Barbon\MySQL4DoctrineDriver\Doctrine\Tests
+ * @package Barbondev\MySQL4DoctrineDriver\Doctrine\Tests
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
 class TestUtil

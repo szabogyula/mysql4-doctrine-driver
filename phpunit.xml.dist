@@ -20,11 +20,11 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="false"
-         bootstrap="./tests/Barbon/MySQL4DoctrineDriver/Doctrine/Tests/TestInit.php"
+         bootstrap="./tests/Barbondev/MySQL4DoctrineDriver/Doctrine/Tests/TestInit.php"
         >
     <php>
         <!-- "Real" test database -->
-        <var name="db_class" value="Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Driver\PDOMySQL4\Driver"/>
+        <var name="db_class" value="Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Driver\PDOMySQL4\Driver"/>
         <var name="db_host" value="localhost" />
         <var name="db_username" value="root" />
         <var name="db_password" value="" />
@@ -35,7 +35,7 @@
 
     <testsuites>
         <testsuite name="Doctrine DBAL Test Suite">
-            <directory>./tests/Barbon/MySQL4DoctrineDriver/Doctrine/Tests/DBAL</directory>
+            <directory>./tests/Barbondev/MySQL4DoctrineDriver/Doctrine/Tests/DBAL</directory>
         </testsuite>
     </testsuites>
 </phpunit>

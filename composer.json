@@ -14,7 +14,7 @@
         "doctrine/dbal": "2.4.*@dev"
     },
     "autoload": {
-        "psr-0": { "Barbon\\MySQL4DoctrineDriver": "lib/" }
+        "psr-0": { "Barbondev\\MySQL4DoctrineDriver": "lib/" }
     },
     "config": {
         "bin-dir": "bin"

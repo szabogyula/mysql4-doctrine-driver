@@ -1,6 +1,6 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema;
 
 use Doctrine\DBAL\Schema\Schema as DoctrineSchema;
 use Doctrine\DBAL\Schema\SchemaException;
@@ -8,7 +8,7 @@ use Doctrine\DBAL\Schema\SchemaException;
 /**
  * Class Schema
  *
- * @package Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema
+ * @package Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
 class Schema extends DoctrineSchema

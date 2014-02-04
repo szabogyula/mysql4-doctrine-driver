@@ -1,16 +1,16 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Schema;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Schema;
 
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Configuration;
 use Doctrine\Tests\DBAL\Mocks;
-use Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\MySQL4SchemaManager;
+use Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\MySQL4SchemaManager;
 
 /**
  * Class MySQL4SchemaManagerTest
  *
- * @package Barbon\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Schema
+ * @package Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Schema
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
 class MySQL4SchemaManagerTest extends \PHPUnit_Framework_TestCase

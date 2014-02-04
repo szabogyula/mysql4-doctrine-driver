@@ -1,18 +1,18 @@
 <?php
 
-namespace Barbon\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Platforms;
+namespace Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Platforms;
 
 use Doctrine\Tests\DBAL\Platforms\AbstractPlatformTestCase;
 use Doctrine\DBAL\Types\Type;
 use Doctrine\DBAL\Schema\Table;
 use Doctrine\DBAL\Schema\TableDiff;
 use Doctrine\DBAL\Schema\Index;
-use Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms\MySQL4Platform;
+use Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms\MySQL4Platform;
 
 /**
  * Class MySQL4PlatformTest
  *
- * @package Barbon\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Platforms
+ * @package Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Platforms
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
 class MySQL4PlatformTest extends AbstractPlatformTestCase
