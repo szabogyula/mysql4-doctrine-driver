@@ -11,7 +11,7 @@ Installation
 
     "require": {
         ...
-        "barbondev/mysql4-doctrine-driver": "master-dev"
+        "barbondev/mysql4-doctrine-driver": "dev-master"
     },
 
 Usage
