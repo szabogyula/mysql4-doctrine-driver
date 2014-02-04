@@ -1,0 +1,4 @@
+barbondev/mysql4-doctrine-driver
+Copyright 2014 Barbon Insurance Group <oss@barbon.com>
+
+This library extends code from the Doctrine 2 DBAL library

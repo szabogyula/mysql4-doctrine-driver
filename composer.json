@@ -2,6 +2,7 @@
     "name": "barbondev/mysql4-doctrine-driver",
     "description": "MySQL 4.* Driver for Doctrine DBAL",
     "type": "library",
+    "license": "Apache-2.0",
     "authors": [
         { "name": "Ashley Dawson", "email": "ashley.dawson@barbon.com" }
     ],
