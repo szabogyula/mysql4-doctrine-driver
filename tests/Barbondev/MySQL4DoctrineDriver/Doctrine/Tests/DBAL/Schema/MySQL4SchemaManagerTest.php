@@ -25,7 +25,7 @@ class MySQL4SchemaManagerTest extends \PHPUnit_Framework_TestCase
     {
         $eventManager = new EventManager();
         $driverMock = $this->getMock('Doctrine\DBAL\Driver');
-        $platform = $this->getMock('Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms\MySQL4Platform');
+        $platform = $this->getMock('Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms\MySQL4Platform');
         $this->conn = $this->getMock(
             'Doctrine\DBAL\Connection',
             array('fetchAll'),
