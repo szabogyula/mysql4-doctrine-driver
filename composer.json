@@ -1,5 +1,5 @@
 {
-    "name": "barbon/mysql4-doctrine-driver",
+    "name": "barbondev/mysql4-doctrine-driver",
     "description": "MySQL 4.* Driver for Doctrine DBAL",
     "type": "library",
     "authors": [
