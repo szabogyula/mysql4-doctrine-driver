@@ -9,6 +9,8 @@ MySQL 4 driver for interigating your legacy databases from within the Doctrine O
 Installation
 ------------
 
+We recommend installing this library via Composer.
+
     "require": {
         ...
         "barbondev/mysql4-doctrine-driver": "dev-master"
