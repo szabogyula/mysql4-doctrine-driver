@@ -1,0 +1,25 @@
+{
+    "name": "barbondev/payment-paypoint-hosted-bundle",
+    "type": "symfony-bundle",
+    "description": "Payment Bundle providing access to the hosted PayPoint (was SecPay) gateway",
+    "keywords": ["payment", "paypoint", "hosted", "secpay"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ashley Dawson",
+            "email": "ashley.dawson@barbon.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.8",
+        "symfony/framework-bundle": "~2.2",
+        "jms/payment-core-bundle": "~1.0"
+    },
+    "require-dev": {
+        "symfony/browser-kit": "~2.2",
+        "symfony/finder": "~2.2"
+    },
+    "autoload": {
+        "psr-4": { "Barbondev\\Payment\\PayPointHostedBundle\\": "" }
+    }
+}
