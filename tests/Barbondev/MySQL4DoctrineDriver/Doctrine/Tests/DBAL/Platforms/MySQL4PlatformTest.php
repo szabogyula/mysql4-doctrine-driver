@@ -2,8 +2,7 @@
 
 namespace Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Platforms;
 
-use Doctrine\Tests\DBAL\Platforms\AbstractPlatformTestCase;
-use Doctrine\DBAL\Types\Type;
+use Doctrine\Tests\DBAL\Platforms\AbstractMySQLPlatformTestCase;
 use Doctrine\DBAL\Schema\Table;
 use Doctrine\DBAL\Schema\TableDiff;
 use Doctrine\DBAL\Schema\Index;
@@ -15,7 +14,7 @@ use Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Platforms\MySQL4Platform;
  * @package Barbondev\MySQL4DoctrineDriver\Doctrine\Tests\DBAL\Platforms
  * @author Ashley Dawson <ashley.dawson@barbon.com>
  */
-class MySQL4PlatformTest extends AbstractPlatformTestCase
+class MySQL4PlatformTest extends AbstractMySQLPlatformTestCase
 {
     public function createPlatform()
     {

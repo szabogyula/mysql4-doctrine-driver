@@ -48,7 +48,7 @@ class DbalFunctionalTestCase extends \PHPUnit_Framework_TestCase
         $this->_conn->getConfiguration()->setSQLLogger($this->_sqlLoggerStack);
     }
 
-    protected function onNotSuccessfulTest(\Exception $e)
+    protected function onNotSuccessfulTest($e)
     {
         if ($e instanceof \PHPUnit_Framework_AssertionFailedError) {
             throw $e;
