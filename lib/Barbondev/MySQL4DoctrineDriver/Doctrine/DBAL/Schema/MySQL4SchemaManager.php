@@ -5,8 +5,8 @@ namespace Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema;
 use Doctrine\DBAL\Schema\MySqlSchemaManager;
 use Doctrine\DBAL\Schema\Column;
 use Doctrine\DBAL\Types\Type;
-use Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\Schema;
-use Barbon\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\Table;
+use Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\Schema;
+use Barbondev\MySQL4DoctrineDriver\Doctrine\DBAL\Schema\Table;
 
 /**
  * Class MySQL4SchemaManager
